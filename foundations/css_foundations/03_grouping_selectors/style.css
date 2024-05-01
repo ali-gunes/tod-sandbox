@@ -1,14 +1,14 @@
-.basic-style {
+.first-button, .second-button{
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-.basic-style.first {
+.first-button {
     background-color: black;
     color: white;
     font-weight: 700;
 }
 
-.basic-style.second {
+.second-button {
     background-color: yellow;
 }

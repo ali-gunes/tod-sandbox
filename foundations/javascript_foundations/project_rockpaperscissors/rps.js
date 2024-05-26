@@ -59,11 +59,6 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-  
-
 function playRound(humanChoice, computerChoice) {
     console.log(`Computer's Choice: ${options[computerChoice]}\n${asciiArt[computerChoice]}`)
     console.log("\n---------------------------\n")
